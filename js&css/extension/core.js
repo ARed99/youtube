@@ -292,6 +292,26 @@ extension.storage.listener = function () {
 	});
 };
 
+
+/*--------------------------------------------------------------
+# SET REGION AND LANGUAGE
+--------------------------------------------------------------*/
+
+extension.features.setRegionAndLanguage = function() {
+	var region = extension.storage.get('youtube_region');
+	var language = extension.storage.get('youtube_language');
+    
+	if (region && language) {
+	    // Set cookies for region and language
+	    document.cookie = `PREF=f1=50000000&f5=${region}&hl=${language}; domain=.youtube.com; path=/; max-age=31536000`;
+	    
+	    // Reload the page to apply changes if we're on YouTube
+	    if (window.location.hostname.includes('youtube.com')) {
+		window.location.reload();
+	    }
+	}
+    };
+
 /*--------------------------------------------------------------
 # LOAD
 --------------------------------------------------------------*/
@@ -321,3 +341,5 @@ extension.storage.load = function (callback) {
 		}
 	});
 };
+
+
