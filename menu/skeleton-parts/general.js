@@ -382,6 +382,230 @@ extension.skeleton.main.layers.section.general = {
 					text: 'addScrollToTop',
 					tags: 'up'
 				}
+			},
+			section_5: {
+				component: 'section',
+				variant: 'card',
+				title: ' Region and Language',
+
+				region: {
+					component : 'select',
+					text: 'Region',
+					options: [
+						{
+						    text: 'default',
+						    value: 'default'
+						},
+						{
+						    text: 'Africa',
+						    value: 'Africa'
+						},
+						{
+						    text: 'Asia',
+						    value: 'Asia'
+						},
+						{
+						    text: 'Europe',
+						    value: 'Europe'
+						},
+						{
+						    text: 'North America',
+						    value: 'North America'
+						},
+						{
+						    text: 'Oceania',
+						    value: 'Oceania'
+						},
+						{
+						    text: 'South America',
+						    value: 'South America'
+						},
+						{
+						    text: 'Central America',
+						    value: 'Central America'
+						},
+						{
+						    text: 'Caribbean',
+						    value: 'Caribbean'
+						},
+						{
+						    text: 'Middle East',
+						    value: 'Middle East'
+						},
+						{
+						    text: 'Caucasus',
+						    value: 'Caucasus'
+						},
+						{
+						    text: 'Southeast Asia',
+						    value: 'Southeast Asia'
+						},
+						{
+						    text: 'Central Asia',
+						    value: 'Central Asia'
+						},
+						{
+						    text: 'East Asia',
+						    value: 'East Asia'
+						},
+						{
+						    text: 'South Asia',
+						    value: 'South Asia'
+						},
+						{
+						    text: 'Sub-Saharan Africa',
+						    value: 'Sub-Saharan Africa'
+						},
+						{
+						    text: 'North Africa',
+						    value: 'North Africa'
+						}
+					    ]
+					    
+				},
+				language: {
+					component :'select',
+					text: 'Language',
+					options: [
+						{
+						    text: 'default',
+						    value: 'default'
+						},
+						{
+						    text: 'English',
+						    value: 'English'
+						},
+						{
+						    text: 'Spanish',
+						    value: 'Spanish'
+						},
+						{
+						    text: 'French',
+						    value: 'French'
+						},
+						{
+						    text: 'German',
+						    value: 'German'
+						},
+						{
+						    text: 'Mandarin',
+						    value: 'Mandarin'
+						},
+						{
+						    text: 'Hindi',
+						    value: 'Hindi'
+						},
+						{
+						    text: 'Arabic',
+						    value: 'Arabic'
+						},
+						{
+						    text: 'Bengali',
+						    value: 'Bengali'
+						},
+						{
+						    text: 'Portuguese',
+						    value: 'Portuguese'
+						},
+						{
+						    text: 'Russian',
+						    value: 'Russian'
+						},
+						{
+						    text: 'Japanese',
+						    value: 'Japanese'
+						},
+						{
+						    text: 'Korean',
+						    value: 'Korean'
+						},
+						{
+						    text: 'Italian',
+						    value: 'Italian'
+						},
+						{
+						    text: 'Turkish',
+						    value: 'Turkish'
+						},
+						{
+						    text: 'Vietnamese',
+						    value: 'Vietnamese'
+						},
+						{
+						    text: 'Polish',
+						    value: 'Polish'
+						},
+						{
+						    text: 'Dutch',
+						    value: 'Dutch'
+						},
+						{
+						    text: 'Thai',
+						    value: 'Thai'
+						},
+						{
+						    text: 'Swedish',
+						    value: 'Swedish'
+						},
+						{
+						    text: 'Greek',
+						    value: 'Greek'
+						},
+						{
+						    text: 'Hebrew',
+						    value: 'Hebrew'
+						},
+						{
+						    text: 'Czech',
+						    value: 'Czech'
+						},
+						{
+						    text: 'Hungarian',
+						    value: 'Hungarian'
+						},
+						{
+						    text: 'Finnish',
+						    value: 'Finnish'
+						},
+						{
+						    text: 'Danish',
+						    value: 'Danish'
+						},
+						{
+						    text: 'Norwegian',
+						    value: 'Norwegian'
+						},
+						{
+						    text: 'Romanian',
+						    value: 'Romanian'
+						},
+						{
+						    text: 'Bulgarian',
+						    value: 'Bulgarian'
+						},
+						{
+						    text: 'Ukrainian',
+						    value: 'Ukrainian'
+						},
+						{
+						    text: 'Malay',
+						    value: 'Malay'
+						},
+						{
+						    text: 'Indonesian',
+						    value: 'Indonesian'
+						},
+						{
+						    text: 'Swahili',
+						    value: 'Swahili'
+						},
+						{
+						    text: 'Zulu',
+						    value: 'Zulu'
+						}
+					    ]
+					    
+				}
 			}
 		}
 	},
