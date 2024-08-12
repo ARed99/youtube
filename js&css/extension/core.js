@@ -288,6 +288,11 @@ extension.storage.listener = function () {
 				key,
 				value
 			});
+			
+			// Call setRegionAndLanguage when youtube_region or youtube_language changes
+			 if (key === 'youtube_region' || key === 'youtube_language') {
+				extension.features.setRegionAndLanguage();
+			}
 		}
 	});
 };
