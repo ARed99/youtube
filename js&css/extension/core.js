@@ -336,6 +336,9 @@ extension.storage.load = function (callback) {
 			storage: items
 		});
 
+		// Call setRegionAndLanguage after storage is loaded
+		extension.features.setRegionAndLanguage();
+
 		if (callback) {
 			callback(extension.storage.data);
 		}
